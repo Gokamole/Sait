@@ -1,0 +1,46 @@
+
+body {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    color: rgba(68, 99, 129, 1);
+}
+.container {
+    max-height: 78px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-flex {
+    display: flex;
+    align-items: center;
+}
+.right-flex {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 141px;
+    margin-right: 292px;
+}
+.nav-flex a {
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgba(68, 99, 129, 1);
+}
+.started {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
+    margin-right: 133px;
+}
