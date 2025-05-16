@@ -3,6 +3,11 @@ body {
     font-family: "Josefin Sans";
     font-size: 18px;
     color: rgba(68, 99, 129, 1);
+    background: rgba(255, 230, 215, 1);
+    background-image:url(assets/image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .container {
     max-height: 78px;
@@ -43,4 +48,56 @@ a {
     font-size: 18px;
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     margin-right: 133px;
+    font-family: "Josefin Sans";
+}
+.gaming-consoles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 121px;
+    margin-right: 61px;
+}
+.consoles-content {
+    width: 529px;
+}
+.consoles-text {
+    color: rgba(130, 111, 140, 1);
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.consoles-title {
+    color: rgba(235, 131, 130, 1);
+    font-size: 50px;
+    margin-top: 38px;
+    margin-bottom: 16px;
+}
+.consoles-title-1 {
+    font-size: 50px;
+    margin: 0;
+}
+.consoles-character {
+    width: 735px;
+}
+.consoles-button {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
+    font-family: "Josefin Sans";
+}
+.consoles {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 33px;
+}
+.consoles-head {
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
