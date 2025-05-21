@@ -192,7 +192,24 @@ a {
     text-align: center;
 }
 .cards {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+}
+.card1 {
+margin-left: 150px;
+background-color: rgba(251, 218, 207, 1);
+}
+.card2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    background: linear-gradient(to bottom, rgba(68, 99, 129, 1), rgba(130, 111, 140, 1));
+}
+.card3 {
+    margin-right: 134px;
+    background-color: rgba(251, 218, 207, 1);
+}
+.list-1 {
+    list-style-image: url(assets/Vector\ \(2\).png);
 }
