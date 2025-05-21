@@ -9,13 +9,14 @@ body {
     background-size: 1488px 844px;
 }
 .container {
-    max-height: 78px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1167px;
 }
 .left-flex {
     display: flex;
@@ -26,8 +27,8 @@ header {
     align-items: center;
 }
 .logo {
-    margin-left: 141px;
-    margin-right: 292px;
+    margin-left: 140px;
+    margin-right: 290px;
 }
 .nav-flex a {
     margin-right: 50px;
@@ -116,7 +117,7 @@ a {
 .VR-text {
     color: rgba(130, 111, 140, 1);
     line-height: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 518px;
 }
 .VR-title {
@@ -141,4 +142,45 @@ a {
 }
 .arrows {
     margin-left: 60px;
+}
+.PS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(assets/image\ 14.png);
+    background-repeat: no-repeat;
+    background-size: auto 844px;
+    margin-top: 90px;
+}
+.img {
+    margin-right: 39px;
+}
+.PS-content {
+    margin-left: 140px;
+    width: 530px;
+}
+.PS-button {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
+    font-family: "Josefin Sans";
+}
+.PS-title {
+    color: rgba(235, 131, 130, 1);
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.PS-text {
+    color: rgba(130, 111, 140, 1);
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.PS-head {
+    font-size: 23px;
 }
