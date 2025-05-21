@@ -6,10 +6,14 @@ body {
     background: rgba(255, 230, 215, 1);
     background-image:url(assets/image\ 3.png);
     background-repeat: no-repeat;
-    background-size: 1488px 844px;
+    background-size: 1440px 844px;
+    background-position:top;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .container {
     max-width: 1440px;
+    max-height: 78px;
     margin: 0 auto;
 }
 header {
@@ -28,7 +32,7 @@ header {
 }
 .logo {
     margin-left: 140px;
-    margin-right: 290px;
+    margin-right: 250px;
 }
 .nav-flex a {
     margin-right: 50px;
@@ -183,4 +187,12 @@ a {
 }
 .PS-head {
     font-size: 23px;
+}
+.price-title {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
