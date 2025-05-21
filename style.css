@@ -6,8 +6,7 @@ body {
     background: rgba(255, 230, 215, 1);
     background-image:url(assets/image\ 3.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: 1488px 844px;
 }
 .container {
     max-height: 78px;
@@ -97,7 +96,49 @@ a {
     margin-right: 33px;
 }
 .consoles-head {
-    display: flex;
+    display:flex;
     align-items: center;
     margin: 0;
+}
+.illustration {
+    margin-left: 84px;
+}
+.about-VR-glasses {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.VR-content {
+    margin-left: 77px;
+    margin-right: 132px;
+}
+.VR-text {
+    color: rgba(130, 111, 140, 1);
+    line-height: 30px;
+    margin-bottom: 50px;
+    width: 518px;
+}
+.VR-title {
+    color: rgba(235, 131, 130, 1);
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.VR-button {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
+    font-family: "Josefin Sans";
+}
+.VR-head {
+    font-size: 23px;
+}
+.arrows {
+    margin-left: 60px;
 }
