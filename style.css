@@ -53,6 +53,7 @@ a {
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     margin-right: 133px;
     font-family: "Josefin Sans";
+    cursor: pointer;
 }
 .gaming-consoles {
     display: flex;
@@ -93,6 +94,7 @@ a {
     font-size: 18px;
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     font-family: "Josefin Sans";
+    cursor: pointer;
 }
 .consoles {
     font-size: 23px;
@@ -140,6 +142,7 @@ a {
     font-size: 18px;
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     font-family: "Josefin Sans";
+    cursor: pointer;
 }
 .VR-head {
     font-size: 23px;
@@ -174,6 +177,7 @@ a {
     font-size: 18px;
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     font-family: "Josefin Sans";
+    cursor: pointer;
 }
 .PS-title {
     color: rgba(235, 131, 130, 1);
@@ -315,6 +319,7 @@ a {
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     font-family: "Josefin Sans";
     margin-left: 50px;
+    cursor: pointer;
 }
 .button-2 {
     color: rgba(255, 255, 255, 1);
@@ -328,6 +333,7 @@ a {
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     font-family: "Josefin Sans";
     margin-left: 50px;
+    cursor: pointer;
 }
 .button-3 {
     color: rgba(255, 255, 255, 1);
@@ -341,6 +347,7 @@ a {
     background: linear-gradient(to right, rgba(68, 153, 217, 1), rgba(115, 103, 190, 1));
     font-family: "Josefin Sans";
     margin-left: 50px;
+    cursor: pointer;
 }
 .name-1 {
     font-size: 32px;
@@ -373,9 +380,13 @@ footer {
     background-image: url(/assets/Rectangle\ 5233.png);
 }
 .logo-f {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 133px;
 }
 .seti {
     margin-right: 143px;
+    margin-top: 42px;
+}
+.f-text {
+    margin-top: 49px;
 }
