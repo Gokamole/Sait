@@ -11,6 +11,9 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+html{
+   scroll-behavior: smooth;
+}
 .container {
     max-width: 1440px;
     max-height: 78px;
@@ -382,11 +385,14 @@ footer {
 .logo-f {
     margin-top: 25px;
     margin-left: 133px;
+    margin-bottom: 19px;
 }
 .seti {
     margin-right: 143px;
     margin-top: 42px;
+    margin-bottom: 27px;
 }
 .f-text {
     margin-top: 49px;
+    margin-bottom: 30px;
 }
